@@ -1,0 +1,9 @@
+# Let Git normalize line endings for text files, then force LF where a wrong ending breaks things.
+* text=auto
+
+# Shell scripts and SQL must stay LF or they fail on Linux after a Windows checkout.
+*.sh  text eol=lf
+*.sql text eol=lf
+
+# PowerShell scripts work fine with either, but CRLF is the Windows norm.
+*.ps1 text eol=crlf

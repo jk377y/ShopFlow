@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- Lets `dotnet user-secrets` find this project's secrets (used for the DB password later) -->
+    <UserSecretsId>shopflow-web-7c1d9e52-3b4a-4f6e-9a0d-5e2f8b1c6a73</UserSecretsId>
+  </PropertyGroup>
+
+</Project>

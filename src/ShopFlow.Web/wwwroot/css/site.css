@@ -1,0 +1,42 @@
+/* Global variables */
+:root {
+  --color-bg: #f5f6f8;
+  --color-text: #1f2933;
+  --color-accent: #1d5fa8;
+  --color-ok: #1b7f3b;
+  --color-error: #b3261e;
+}
+
+/* Base layout */
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+.site-header {
+  background: var(--color-accent);
+  color: #fff;
+  padding: 1rem 1.5rem;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+main {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+/* Status messages */
+.status-ok { color: var(--color-ok); }
+.status-error { color: var(--color-error); }
+
+/* Responsive design */
+@media (max-width: 600px) {
+  main { padding: 1rem; }
+}

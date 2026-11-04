@@ -1,0 +1,30 @@
+# --- Personal AI Instructions ---
+CLAUDE.local.md
+
+# --- Environment Variables & Secrets ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- .NET Build Files ---
+bin/
+obj/
+
+# --- IDE Files ---
+.vscode/
+.idea/
+
+# --- Logs and Temporary Files ---
+*.log
+*.tmp
+
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
+
+# --- More .NET / Visual Studio files ---
+.vs/
+TestResults/
+*.user
