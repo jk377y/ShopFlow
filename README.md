@@ -1,4 +1,6 @@
-# ShopFlow
+# ShopFlow 
+
+<h2 style="color: orange;">Currently in Development</h2>
 
 A small full-stack manufacturing inventory and order management app. It's a learning project for C#/.NET, SQL databases, and full-stack development, built with ASP.NET Core (.NET 10), PostgreSQL, Entity Framework Core, and plain HTML/CSS/JavaScript.
 
